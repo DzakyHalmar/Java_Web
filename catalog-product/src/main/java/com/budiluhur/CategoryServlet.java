@@ -19,7 +19,7 @@ public class CategoryServlet extends HttpServlet {
     public void init() {
         categories = new ArrayList<>();
 
-        categories.add(new Category("CAT-01", "Elektronik"));
+        categories.add(new Category("2411500131", "Dzaky Halmar"));
         categories.add(new Category("CAT-02", "Aksesoris Komputer"));
         categories.add(new Category("CAT-03", "Peralatan Gaming"));
     }
